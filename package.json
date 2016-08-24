@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "jasmine",
-    "start": "",
     "watch-dev": "watchify lib/main.js -o javascripts/bundle.js -v"
   },
   "author": "",
@@ -16,6 +15,5 @@
     "watchify": "^3.7.0"
   },
   "dependencies": {
-    "jquery": "^3.1.0"
   }
 }
