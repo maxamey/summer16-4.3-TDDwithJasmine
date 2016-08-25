@@ -25,11 +25,11 @@ describe("profile", function(){
 
   it("should get the value of the followers from the response object", function(){
     var responseJSON = {followers: 1};
-    expect(profile.getFollowing(responseJSON)).toBe(1);
+    expect(profile.getFollowers(responseJSON)).toBe(1);
   });
 
   it("should get the value of the following from the response object", function(){
     var responseJSON = {following: 0};
-    expect(profile.getFollowers(responseJSON)).toBe(0);
+    expect(profile.getFollowing(responseJSON)).toBe(0);
   });
 });
